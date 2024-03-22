@@ -13,7 +13,7 @@ while True:
     response_text = response.text
     try:
         number = float(response_text)
-        if last_number != number:
+        if last_number != number or True:
             print("New number:", number)  
             print("PIN ON")
             pin.on()
