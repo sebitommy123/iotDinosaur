@@ -24,4 +24,4 @@ while True:
     except ValueError:
         print("Received text could not be converted to a number:", response_text)
 
-    sleep(10)
+    sleep(3)
