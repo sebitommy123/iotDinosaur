@@ -43,3 +43,4 @@ while True:
         s += 1
     
     sleep(2)
+    s += 2
