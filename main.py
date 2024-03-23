@@ -44,3 +44,5 @@ while True:
     
     sleep(2)
     s += 2
+
+    print(s)
