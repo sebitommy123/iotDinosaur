@@ -45,4 +45,4 @@ while True:
     sleep(2)
     s += 2
 
-    print(s)
+    print(f"Ping in {str(send_every - s)}")
