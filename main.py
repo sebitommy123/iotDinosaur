@@ -27,6 +27,12 @@ while True:
             dance_pin.off()
             sleep(5)
             s += 5
+            print("STOP PIN ON")
+            stop_pin.on()
+            sleep(1)
+            s += 1
+            print("STOP PIN OFF")
+            stop_pin.off()
         last_number = number
     except ValueError:
         print("Received text could not be converted to a number:", response_text)
