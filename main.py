@@ -41,3 +41,5 @@ while True:
         stop_pin.off()
         sleep(1)
         s += 1
+    
+    sleep(2)
